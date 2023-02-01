@@ -1,0 +1,40 @@
+:root {
+    --red: #ff7A7A;
+    --green: #38CC8C;
+    --dark-blue: #3E3C49;
+    --dark-green: #2EA672;
+    --light-blue: #B9B6D3;
+    --light-white: #FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--red);
+}
+
+h1, span p {
+    color: var(--light-white);
+}
+
+input, button {
+    width: 100%;
+    height: 60px;
+    outline: 0;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.16s ease-in;
+}
+
+input {
+    padding: 0 24px;
+}
+
+
+
