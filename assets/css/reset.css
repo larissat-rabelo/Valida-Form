@@ -1,9 +1,9 @@
 :root {
-    --red: #ff7A7A;
+    --red: #ee3737;
     --green: #38CC8C;
-    --dark-blue: #3E3C49;
+    --dark-blue: #352a75;
     --dark-green: #2EA672;
-    --light-blue: #B9B6D3;
+    --light-blue: #8f87dd;
     --light-white: #FFF;
 }
 
@@ -18,7 +18,7 @@ body {
     background-color: var(--red);
 }
 
-h1, span p {
+h1, span, p {
     color: var(--light-white);
 }
 
@@ -34,6 +34,8 @@ input, button {
 
 input {
     padding: 0 24px;
+    height: 60px;
+    border: 2px solid var(--light-blue);
 }
 
 

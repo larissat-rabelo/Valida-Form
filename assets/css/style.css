@@ -1,0 +1,121 @@
+.container {
+    width: 100%;
+    max-width: 75vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texts {
+    width: 100%;
+    max-width: 500px;
+}
+
+.title {
+    font-size: 3em;
+    margin-bottom: 24px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-message {
+    background-color: var(--dark-blue);
+    color: var(--light-white);
+    padding: 24px 8px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    text-align: center;
+    box-shadow: 0px 8px 0px rgb(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+strong {
+    margin-right: 5px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-white);
+    padding: 24px 24px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 0px rgb(0, 0, 0, 0.2);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+input:focus {
+    border-color: var(--dark-blue);
+}
+
+input.error-active {
+    border-color: var(--red);
+}
+
+.infos-error {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.message-error {
+    color: var(--red);
+    align-self: flex-end;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.icon-error {
+    color: var(--red);
+    font-size: 1.6em;
+    position: absolute;
+    align-self: flex-end;
+    top: 20%;
+    right: 5%;
+}
+
+.btn-submit {
+    border: 0;
+    background-color: var(--green);
+    color: var(--light-white);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: var(--dark-green);
+    box-shadow: inset 2px 2px 2px 3px rgb(0, 0, 0, 0.2);
+}
+
+.term-message {
+    color: var(--light-blue);
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.term-message a {
+    text-decoration: none;
+    color: var(--red);
+    font: 700;
+}
